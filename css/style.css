@@ -1,0 +1,1795 @@
+header {
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 7.5rem;
+  display: flex;
+  justify-content: space-between; }
+  header .Logo {
+    display: flex;
+    justify-content: space-between; }
+
+.ulRedes img {
+  width: 5rem;
+  height: 4.375rem; }
+
+.pieDePagina {
+  color: white;
+  display: flex;
+  justify-content: space-around; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.bodyIndex header {
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 7.5rem;
+  display: flex;
+  justify-content: space-between; }
+  .bodyIndex header .logo {
+    display: flex;
+    justify-content: space-between; }
+  .bodyIndex header h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 1.875rem;
+    display: inline; }
+  .bodyIndex header div img {
+    margin: .5rem .5rem;
+    width: 9.375rem;
+    height: 6.25rem; }
+  .bodyIndex header .ulNavegador {
+    display: flex;
+    list-style: none;
+    justify-content: center; }
+    .bodyIndex header .ulNavegador li {
+      display: inline;
+      font-weight: bold;
+      font-size: 13px;
+      padding-left: .5rem;
+      padding-right: 1.25rem;
+      padding-top: 3.125rem; }
+      .bodyIndex header .ulNavegador li a {
+        color: white;
+        text-decoration: none;
+        font-size: .9375rem;
+        font-family: 'Roboto', sans-serif; }
+
+.bodyIndex main {
+  background-color: black; }
+  .bodyIndex main .sectionVestimentaRopa {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    justify-content: space-between; }
+    .bodyIndex main .sectionVestimentaRopa img {
+      width: 18.75rem;
+      height: 28.125rem; }
+    .bodyIndex main .sectionVestimentaRopa h3 {
+      color: white; }
+  .bodyIndex main .CamisetasDeportivas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .bodyIndex main .CamisetasDeportivas img {
+      width: 56.25rem;
+      height: 31.25rem; }
+    .bodyIndex main .CamisetasDeportivas h3 {
+      color: white; }
+  .bodyIndex main .Banner {
+    width: 100%;
+    height: 50.625rem;
+    background-image: url("https://images.unsplash.com/photo-1526573461737-b504d8040d92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .bodyIndex main .Banner h1 {
+      font-family: 'Julius Sans One', sans-serif; }
+  .bodyIndex main .FraseLeo h1 {
+    margin-top: 1.25rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .bodyIndex main .FraseLeo .foto-frase {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .bodyIndex main .FraseLeo .foto-frase h2 {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      width: 37.5rem;
+      margin-left: 1.25rem; }
+    .bodyIndex main .FraseLeo .foto-frase img {
+      width: 15.625rem;
+      height: 15.625rem; }
+  .bodyIndex main .sectionVestimenta h2 {
+    margin: 2.5rem;
+    font-size: 1.875rem;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    color: white; }
+  .bodyIndex main .sectionVestimenta h3 {
+    color: white;
+    font-family: 'Roboto',sans-serif; }
+  .bodyIndex main .sectionVestimenta img {
+    width: 25rem;
+    height: 34.375rem; }
+  .bodyIndex main .sectionVestimenta .Vestimenta {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.589);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    .bodyIndex main .sectionVestimenta .Vestimenta .tipoVestimenta {
+      border: solid 0.0625rem rgba(0, 0, 0, 0.493);
+      display: flex;
+      flex-direction: column;
+      border-radius: .625rem;
+      overflow: hidden;
+      margin: 1.5625rem 0px; }
+  .bodyIndex main .apoyaSeleccion p {
+    font-family: 'Roboto',sans-serif;
+    width: 100%;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-image: url("https://www.ole.com.ar/images/2022/12/18/dYmYg_Tdb_1580x750__1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.4375rem;
+    color: white;
+    text-shadow: 0.3125rem 0.3125rem 0.3125rem black; }
+
+.bodyIndex footer {
+  background-color: black; }
+  .bodyIndex footer .pieDePagina {
+    padding-top: 1.875rem;
+    color: white;
+    display: flex;
+    justify-content: space-around; }
+    .bodyIndex footer .pieDePagina .ulRedes img {
+      width: 5rem;
+      height: 4.375rem; }
+
+.bodyLocalidades header {
+  background-color: #0f0024;
+  background-image: url("https://images.unsplash.com/photo-1621573094640-0b2391e9acec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  width: 100%;
+  height: 21.875rem;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .bodyLocalidades header h1 {
+    color: white; }
+  .bodyLocalidades header h3 {
+    color: white; }
+  .bodyLocalidades header .divLogoAdidas {
+    display: flex;
+    justify-content: space-between; }
+  .bodyLocalidades header div img {
+    margin: .5rem .5rem;
+    width: 9.375rem;
+    height: 6.25rem; }
+  .bodyLocalidades header .ulNavegador {
+    display: flex;
+    list-style: none;
+    justify-content: center; }
+    .bodyLocalidades header .ulNavegador li {
+      display: inline;
+      font-weight: bold;
+      font-size: 13px;
+      padding-left: .5rem;
+      padding-right: 1.25rem;
+      padding-top: 3.125rem; }
+      .bodyLocalidades header .ulNavegador li a {
+        color: white;
+        text-decoration: none;
+        font-size: .9375rem;
+        font-family: 'Roboto', sans-serif; }
+
+.bodyLocalidades .Encabezado {
+  width: 100%;
+  height: 31.25rem;
+  display: grid;
+  grid-template-columns: 25rem 10% 30% 43.125rem;
+  grid-template-rows: 6.25rem 5.625rem 5rem 5rem;
+  grid-template-areas: "logo . . BdeN" ". . . ." ". . DE ." "NS . . .";
+  justify-items: left;
+  align-items: end;
+  justify-content: space-between;
+  column-gap: 0; }
+
+.bodyLocalidades .ulNavegador {
+  grid-area: BdeN;
+  justify-content: center;
+  align-self: baseline; }
+
+.bodyLocalidades .divLogoAdidas {
+  padding-top: 1.875rem;
+  grid-area: logo; }
+  .bodyLocalidades .divLogoAdidas div p {
+    color: white; }
+
+.bodyLocalidades .DondeEs {
+  margin-left: 6.25rem;
+  font-size: 1.375rem;
+  font-family: 'Roboto',sans-serif;
+  grid-area: DE;
+  text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+  justify-items: end;
+  align-self: baseline; }
+
+.bodyLocalidades .NuestrasSu {
+  font-size: 1rem;
+  font-family: 'Roboto',sans-serif;
+  margin-left: 1.25rem;
+  grid-area: NS; }
+
+.bodyLocalidades main {
+  height: 28.125rem;
+  background-color: #0f0024; }
+  .bodyLocalidades main .adidasLocalidades {
+    width: 100%;
+    height: 25rem;
+    display: grid;
+    grid-template-columns: 15rem 21.875rem 15rem 21.875rem;
+    grid-template-rows: 7.5rem 7.5rem 7.5rem;
+    padding-top: 2.5rem;
+    grid-template-areas: "fotouno descuno fotodos descdos" "fototres desctres fotocuatro desccuatro" "fotocinco desccinco fotoseis descseis";
+    justify-content: center; }
+  .bodyLocalidades main div img {
+    width: 15rem;
+    height: 7rem; }
+  .bodyLocalidades main div p {
+    color: white; }
+  .bodyLocalidades main .FotolocalUno {
+    grid-area: fotouno; }
+  .bodyLocalidades main .DescLocalUno {
+    grid-area: descuno; }
+  .bodyLocalidades main .FotoLocalDos {
+    grid-area: fotodos; }
+  .bodyLocalidades main .DescLocalDos {
+    grid-area: descdos; }
+  .bodyLocalidades main .FotoLocalTres {
+    grid-area: fototres; }
+  .bodyLocalidades main .DescLocalTres {
+    grid-area: desctres; }
+  .bodyLocalidades main .FotoLocalCuatro {
+    grid-area: fotocuatro; }
+  .bodyLocalidades main .DescLocalCuatro {
+    grid-area: desccuatro; }
+  .bodyLocalidades main .FotolocalCinco {
+    grid-area: fotocinco; }
+  .bodyLocalidades main .DescLocalCinco {
+    grid-area: desccinco; }
+  .bodyLocalidades main .FotolocalSeis {
+    grid-area: fotoseis; }
+  .bodyLocalidades main .DescLocalSeis {
+    grid-area: descseis; }
+
+.bodyLocalidades footer {
+  background-color: black; }
+  .bodyLocalidades footer .pieDePagina {
+    padding-top: 1.875rem;
+    color: white;
+    display: flex;
+    justify-content: space-around; }
+    .bodyLocalidades footer .pieDePagina .ulRedes img {
+      width: 5rem;
+      height: 4.375rem; }
+
+.bodyNosotros header {
+  background-image: url("https://images.unsplash.com/photo-1606748294390-f6449e6c61ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80");
+  background-color: #261E59;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+  height: 28.125rem;
+  width: 100%;
+  background-position: 70%; }
+  .bodyNosotros header .ulNavegador {
+    display: flex;
+    list-style: none;
+    justify-content: center; }
+    .bodyNosotros header .ulNavegador li {
+      display: inline;
+      font-weight: bold;
+      font-size: 13px;
+      padding-left: .5rem;
+      padding-right: 1.25rem;
+      padding-top: 3.125rem; }
+      .bodyNosotros header .ulNavegador li a {
+        color: white;
+        text-decoration: none;
+        font-size: .9375rem;
+        font-family: 'Roboto', sans-serif; }
+  .bodyNosotros header .divLogoAdidas img {
+    width: 200px;
+    height: 7.5rem; }
+
+.bodyNosotros main {
+  height: 46.875rem;
+  background-color: #16003a; }
+  .bodyNosotros main img {
+    height: 9.375rem;
+    width: 15rem; }
+
+.bodyNosotros p {
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.25rem; }
+
+.bodyNosotros .nosotrosMain {
+  width: 100%;
+  height: 34.375rem;
+  display: grid;
+  grid-template-columns: 15rem 15rem 15rem;
+  grid-template-rows: 13.75rem 13.75rem 13.75rem;
+  column-gap: 1.25rem;
+  grid-template-areas: "ha ha lv" "ha ha la" "tn tn ftn";
+  justify-content: center; }
+
+.bodyNosotros .historiaAdidas {
+  grid-area: ha; }
+  .bodyNosotros .historiaAdidas p {
+    color: white; }
+  .bodyNosotros .historiaAdidas h1 {
+    color: white; }
+  .bodyNosotros .historiaAdidas h1 {
+    color: white; }
+  .bodyNosotros .historiaAdidas h3 {
+    color: white; }
+  .bodyNosotros .historiaAdidas img {
+    width: 12.5rem;
+    height: 9.375rem; }
+
+.bodyNosotros .logoViejo {
+  grid-area: lv; }
+  .bodyNosotros .logoViejo h3 {
+    color: white; }
+
+.bodyNosotros .logoActual {
+  grid-area: la; }
+  .bodyNosotros .logoActual h3 {
+    color: white; }
+
+.bodyNosotros .TrabajaConNosotros {
+  grid-area: tn; }
+  .bodyNosotros .TrabajaConNosotros h1 {
+    color: white; }
+  .bodyNosotros .TrabajaConNosotros p {
+    color: white; }
+
+.bodyNosotros .FotoTrabajaNosotros {
+  grid-area: ftn; }
+  .bodyNosotros .FotoTrabajaNosotros img {
+    width: 12.5rem;
+    height: 9.375rem; }
+
+.bodyNosotros .pieDePagina div {
+  background-color: black; }
+
+.bodyNosotros .ulRedes li {
+  list-style: none; }
+
+.bodyRopa header {
+  background-color: black; }
+  .bodyRopa header div img {
+    margin: .5rem .5rem;
+    width: 9.375rem;
+    height: 6.25rem; }
+  .bodyRopa header .ulNavegador {
+    display: flex;
+    list-style: none;
+    justify-content: center; }
+    .bodyRopa header .ulNavegador li {
+      display: inline;
+      font-weight: bold;
+      font-size: 13px;
+      padding-left: .5rem;
+      padding-right: 1.25rem;
+      padding-top: 3.125rem; }
+      .bodyRopa header .ulNavegador li a {
+        color: white;
+        text-decoration: none;
+        font-size: .9375rem;
+        font-family: 'Roboto', sans-serif; }
+
+.bodyRopa main {
+  background-color: black; }
+  .bodyRopa main .sectionVestimentaRopa {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    justify-content: space-between; }
+    .bodyRopa main .sectionVestimentaRopa img {
+      width: 18.75rem;
+      height: 28.125rem; }
+    .bodyRopa main .sectionVestimentaRopa h3 {
+      color: white; }
+  .bodyRopa main .CamisetasDeportivas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .bodyRopa main .CamisetasDeportivas img {
+      width: 56.25rem;
+      height: 31.25rem; }
+    .bodyRopa main .CamisetasDeportivas h3 {
+      color: white; }
+
+.bodyRopa footer {
+  background-color: black; }
+  .bodyRopa footer .pieDePagina {
+    color: white;
+    display: flex;
+    justify-content: space-around; }
+    .bodyRopa footer .pieDePagina .ulRedes img {
+      width: 5rem;
+      height: 4.375rem; }
+
+.bodyRopaSeleccion
+header {
+  width: 100%;
+  height: 31.25rem;
+  background-image: url(../assets/img//festejoarg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%; }
+  .bodyRopaSeleccion
+header .divLogoAdidas img {
+    width: 12.5rem;
+    height: 7.5rem; }
+  .bodyRopaSeleccion
+header .ulNavegador {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 3.125rem;
+    padding-right: 1.25rem; }
+    .bodyRopaSeleccion
+header .ulNavegador li {
+      display: inline;
+      font-weight: bold;
+      font-size: 13px;
+      padding-left: .5rem;
+      padding-right: 1.25rem;
+      padding-top: 3.125rem; }
+      .bodyRopaSeleccion
+header .ulNavegador li a {
+        color: white;
+        text-decoration: none;
+        font-size: .9375rem;
+        font-family: 'Roboto', sans-serif;
+        text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397); }
+
+main {
+  background-color: black; }
+
+footer {
+  background-color: black; }
+  footer .pieDePagina {
+    background-color: black;
+    display: flex;
+    justify-content: space-around; }
+    footer .pieDePagina .ulRedes img {
+      width: 5rem;
+      height: 4.375rem; }
+
+.sectionVestimentaSeleccion {
+  display: flex;
+  justify-content: space-between; }
+  .sectionVestimentaSeleccion img {
+    width: 18.75rem;
+    height: 25rem; }
+  .sectionVestimentaSeleccion h3 {
+    color: white;
+    font-family: 'Roboto',sans-serif; }
+
+@media (max-width: 1024px) {
+  header div img {
+    margin: .5rem .5rem;
+    width: 7.8125rem;
+    height: 5rem; }
+  .ulNavegador {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 50px; }
+    .ulNavegador li {
+      display: inline;
+      font-weight: bold;
+      font-size: 10px; }
+      .ulNavegador li a {
+        color: white;
+        text-decoration: none;
+        font-size: .75rem; }
+  .pieDePagina h2 {
+    font-size: 15px;
+    margin-left: 20px; }
+  /*---------------------ROPA----------------------------*/
+  .bodyRopa header div img {
+    margin: .5rem .5rem;
+    width: 7.8125rem;
+    height: 5rem; }
+  .bodyRopa .ulNavegador {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 1.875rem;
+    padding-left: 50px; }
+    .bodyRopa .ulNavegador li {
+      display: inline;
+      font-weight: bold;
+      font-size: 10px; }
+      .bodyRopa .ulNavegador li a {
+        color: white;
+        text-decoration: none;
+        font-size: 9px; }
+  .bodyRopa .sectionVestimentaRopa {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    justify-content: space-between;
+    align-items: center; }
+    .bodyRopa .sectionVestimentaRopa div {
+      width: 100%;
+      height: 18.75rem; }
+      .bodyRopa .sectionVestimentaRopa div img {
+        width: 10rem;
+        height: 15.625rem; }
+      .bodyRopa .sectionVestimentaRopa div h3 {
+        color: white;
+        font-size: .625rem; }
+  .bodyRopa .CamisetasDeportivas img {
+    width: 57.5rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40px; }
+  .bodyRopa .CamisetasDeportivas h3 {
+    margin-left: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif; }
+  .bodyRopa .pieDePagina {
+    padding-top: 2.5rem; }
+    .bodyRopa .pieDePagina h2 {
+      font-size: 15px;
+      margin-left: 20px; }
+  /*---------------------ROPA SELECCION----------------------*/
+  .bodyRopaSeleccion header {
+    width: 100%;
+    height: 300px;
+    background-image: url(../assets/img//festejoarg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90%; }
+  .sectionVestimentaSeleccion {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    justify-content: space-between;
+    align-items: center; }
+    .sectionVestimentaSeleccion img {
+      width: 9.375rem;
+      height: 12.5rem; }
+    .sectionVestimentaSeleccion h3 {
+      color: white;
+      font-family: 'Roboto',sans-serif;
+      font-size: .625rem; }
+  footer {
+    background-color: #000000; }
+  /*---------------------------INDEX------------------------------*/
+  .bodyIndex {
+    background-color: #000000; }
+    .bodyIndex header {
+      background-color: #000000;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 7.5rem;
+      display: flex;
+      justify-content: space-between; }
+      .bodyIndex header .logo {
+        display: flex;
+        justify-content: space-between; }
+      .bodyIndex header h1 {
+        text-align: center;
+        color: white;
+        font-family: 'Julius Sans One', sans-serif;
+        padding: 1.875rem;
+        display: inline; }
+    .bodyIndex main {
+      background-color: black; }
+      .bodyIndex main .Banner {
+        width: 100%;
+        height: 46.875rem;
+        background-image: url("https://images.unsplash.com/photo-1526573461737-b504d8040d92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80%;
+        font-size: 20px;
+        padding-right: 70px;
+        color: white;
+        text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .bodyIndex main .Banner h1 {
+          font-family: 'Julius Sans One', sans-serif; }
+      .bodyIndex main .FraseLeo h1 {
+        margin-top: 1.25rem;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 1.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+      .bodyIndex main .FraseLeo .foto-frase {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .bodyIndex main .FraseLeo .foto-frase h2 {
+          color: white;
+          font-family: 'Roboto', sans-serif;
+          font-size: 20px;
+          margin-left: 1.25rem; }
+        .bodyIndex main .FraseLeo .foto-frase img {
+          width: 12.5rem;
+          height: 12.5rem; }
+      .bodyIndex main .sectionVestimenta h2 {
+        margin: 2.5rem;
+        font-size: 1.875rem;
+        font-family: 'Roboto',sans-serif;
+        text-align: center;
+        color: white; }
+      .bodyIndex main .sectionVestimenta h3 {
+        color: white;
+        font-family: 'Roboto',sans-serif; }
+      .bodyIndex main .sectionVestimenta img {
+        width: 12.5rem;
+        height: 18.75rem; }
+      .bodyIndex main .sectionVestimenta .Vestimenta {
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(0, 0, 0, 0.589);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly; }
+        .bodyIndex main .sectionVestimenta .Vestimenta .tipoVestimenta {
+          border: solid 0.0625rem rgba(0, 0, 0, 0.493);
+          display: flex;
+          flex-direction: column;
+          border-radius: .625rem;
+          overflow: hidden;
+          margin: 1.25rem 0px; }
+          .bodyIndex main .sectionVestimenta .Vestimenta .tipoVestimenta h3 {
+            font-size: 15px; }
+      .bodyIndex main .apoyaSeleccion p {
+        font-family: 'Roboto',sans-serif;
+        width: 100%;
+        height: 31.25rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100%;
+        background-image: url("https://www.ole.com.ar/images/2022/12/18/dYmYg_Tdb_1580x750__1.jpg");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        color: white;
+        text-shadow: 0.3125rem 0.3125rem 0.3125rem black; }
+    .bodyIndex footer {
+      background-color: black; }
+      .bodyIndex footer .pieDePagina {
+        font-size: .625rem;
+        background-color: black;
+        margin-top: 1.875rem;
+        color: white;
+        display: flex;
+        justify-content: space-around; }
+        .bodyIndex footer .pieDePagina .ulRedes img {
+          width: 5rem;
+          height: 4.375rem; }
+  /*-----------------------LOCALIDADES-------------------------*/
+  .bodyLocalidades header {
+    background-image: url("https://images.unsplash.com/photo-1621573094640-0b2391e9acec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    width: 100%;
+    height: 21.875rem;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .bodyLocalidades header h1 {
+      color: white; }
+    .bodyLocalidades header h3 {
+      color: white; }
+    .bodyLocalidades header .Encabezado {
+      width: 100%;
+      height: 31.25rem;
+      display: grid;
+      grid-template-columns: 12.5rem 6.25rem 12.5rem 31.25rem;
+      grid-template-rows: 6.25rem 5.625rem 5rem 5rem;
+      grid-template-areas: "logo . . BdeN" ". . . ." ". DE DE DE" "NS NS . .";
+      justify-items: left;
+      justify-content: space-between; }
+    .bodyLocalidades header .ulNavegador {
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      grid-area: BdeN; }
+      .bodyLocalidades header .ulNavegador li {
+        display: inline;
+        font-weight: bold;
+        font-size: 4.375rem;
+        padding-left: .5rem;
+        padding-right: .9375rem;
+        padding-bottom: 50px; }
+        .bodyLocalidades header .ulNavegador li a {
+          color: white;
+          text-decoration: none;
+          font-size: .75rem; }
+    .bodyLocalidades header .divLogoAdidas {
+      align-items: end;
+      grid-area: logo; }
+      .bodyLocalidades header .divLogoAdidas img {
+        color: white;
+        width: 7.5rem;
+        height: 5rem; }
+    .bodyLocalidades header .DondeEs {
+      align-items: end; }
+      .bodyLocalidades header .DondeEs h1 {
+        padding-left: 90px;
+        font-size: 1.5625rem;
+        font-family: 'Roboto',sans-serif;
+        grid-area: DE;
+        text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+        justify-items: center;
+        align-self: center; }
+    .bodyLocalidades header .NuestrasSu {
+      align-items: end;
+      padding-bottom: .625rem;
+      font-size: .75rem;
+      font-family: 'Roboto',sans-serif;
+      grid-area: NS; }
+  .bodyLocalidades main {
+    background-color: #0f0024; }
+    .bodyLocalidades main .adidasLocalidades {
+      width: 100%;
+      height: 25rem;
+      display: grid;
+      grid-template-columns: 9.375rem 15.625rem 9.375rem 15.625rem;
+      grid-template-rows: 7.5rem 7.5rem 7.5rem;
+      column-gap: 1.25rem;
+      grid-template-areas: "fotouno descuno fotodos descdos" "fototres desctres fotocuatro desccuatro" "fotocinco desccinco fotoseis descseis";
+      justify-content: center; }
+    .bodyLocalidades main div img {
+      width: 150px;
+      height: 90px; }
+    .bodyLocalidades main div p {
+      color: white; }
+    .bodyLocalidades main .FotolocalUno {
+      grid-area: fotouno; }
+    .bodyLocalidades main .DescLocalUno {
+      font-size: .625rem;
+      grid-area: descuno; }
+    .bodyLocalidades main .FotoLocalDos {
+      grid-area: fotodos; }
+    .bodyLocalidades main .DescLocalDos {
+      font-size: .625rem;
+      grid-area: descdos; }
+    .bodyLocalidades main .FotoLocalTres {
+      grid-area: fototres; }
+    .bodyLocalidades main .DescLocalTres {
+      font-size: .625rem;
+      grid-area: desctres; }
+    .bodyLocalidades main .FotoLocalCuatro {
+      grid-area: fotocuatro; }
+    .bodyLocalidades main .DescLocalCuatro {
+      font-size: .625rem;
+      grid-area: desccuatro; }
+    .bodyLocalidades main .FotolocalCinco {
+      grid-area: fotocinco; }
+    .bodyLocalidades main .DescLocalCinco {
+      font-size: .625rem;
+      grid-area: desccinco; }
+    .bodyLocalidades main .FotolocalSeis {
+      grid-area: fotoseis; }
+    .bodyLocalidades main .DescLocalSeis {
+      font-size: .625rem;
+      grid-area: descseis; }
+  .bodyLocalidades footer {
+    background-color: black; }
+    .bodyLocalidades footer .pieDePagina {
+      font-size: .625rem;
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: space-around; }
+      .bodyLocalidades footer .pieDePagina .ulRedes li img {
+        width: .75rem;
+        height: .9375rem; }
+  /*---------------------------------------------------------------*/
+  .bodyNosotros main {
+    padding-top: 2.5rem; }
+  .bodyNosotros footer {
+    background-color: black; }
+    .bodyNosotros footer .pieDePagina {
+      padding-top: 1.875rem;
+      font-size: .625rem;
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: space-around; }
+      .bodyNosotros footer .pieDePagina .ulRedes li img {
+        width: .75rem;
+        height: .9375rem; } }
+
+@media (max-width: 768px) {
+  header div img {
+    margin: .5rem .5rem;
+    width: 6.25rem;
+    height: 4.0625rem; }
+  .pieDePagina h2 {
+    font-size: .625rem;
+    margin-left: 20px; }
+  .pieDePagina .ulRedes img {
+    width: .4375rem;
+    height: .4375rem; }
+  /*---------------------ROPA --------------------*/
+  .bodyRopa header div img {
+    margin: .5rem .5rem;
+    width: 7.8125rem;
+    height: 5rem; }
+  .bodyRopa header .ulNavegador {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 1.875rem;
+    padding-left: 50px; }
+    .bodyRopa header .ulNavegador li {
+      display: inline;
+      font-weight: bold;
+      font-size: 10px; }
+      .bodyRopa header .ulNavegador li a {
+        color: white;
+        text-decoration: none;
+        font-size: 9px; }
+  .bodyRopa .sectionVestimentaRopa {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    justify-content: space-between;
+    align-items: center; }
+    .bodyRopa .sectionVestimentaRopa div {
+      width: 100%;
+      height: 18.75rem; }
+      .bodyRopa .sectionVestimentaRopa div img {
+        width: 110px;
+        height: 200px; }
+      .bodyRopa .sectionVestimentaRopa div h3 {
+        color: white;
+        font-size: .625rem; }
+  .bodyRopa section .CamisetasDeportivas img {
+    width: 700px;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-right: 2.5rem; }
+  .bodyRopa section .CamisetasDeportivas h3 {
+    margin-left: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif; }
+  .bodyRopa footer .pieDePagina {
+    padding-top: 2.5rem; }
+    .bodyRopa footer .pieDePagina h2 {
+      font-size: .625rem;
+      margin-left: 20px; }
+    .bodyRopa footer .pieDePagina .ulRedes img {
+      width: .4375rem;
+      height: .4375rem; }
+  /*---------------------ROPA SELECCION----------------------*/
+  .bodyRopaSeleccion .header-ropaseleccion {
+    width: 100%;
+    height: 12.5rem;
+    background-image: url(../assets/img//festejoarg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90%; }
+    .bodyRopaSeleccion .header-ropaseleccion .ulNavegador {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      padding-top: 1.875rem;
+      padding-left: 50px; }
+      .bodyRopaSeleccion .header-ropaseleccion .ulNavegador li {
+        display: inline;
+        font-weight: bold;
+        font-size: 10px; }
+        .bodyRopaSeleccion .header-ropaseleccion .ulNavegador li a {
+          color: white;
+          text-decoration: none;
+          font-size: 9px; }
+    .bodyRopaSeleccion .header-ropaseleccion .divlogoAdidas {
+      display: flex;
+      justify-content: space-between;
+      width: 7.5rem;
+      height: 5.625rem; }
+      .bodyRopaSeleccion .header-ropaseleccion .divlogoAdidas img {
+        margin-top: 3.125rem;
+        width: 7.5rem;
+        height: 5.625rem; }
+  .bodyRopaSeleccion .sectionVestimentaSeleccion {
+    display: flex;
+    justify-content: space-between; }
+    .bodyRopaSeleccion .sectionVestimentaSeleccion img {
+      width: 90px;
+      height: 8.125rem; }
+    .bodyRopaSeleccion .sectionVestimentaSeleccion h3 {
+      color: white;
+      font-family: 'Roboto',sans-serif; }
+  .bodyRopaSeleccion footer {
+    background-color: black; }
+    .bodyRopaSeleccion footer .pieDePagina h2 {
+      font-size: .625rem;
+      margin-left: 20px; }
+    .bodyRopaSeleccion footer .pieDePagina .ulRedes img {
+      width: .4375rem;
+      height: .4375rem; }
+  /*---------------------INDEX----------------------*/
+  .bodyIndex header {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 6.25rem;
+    display: flex;
+    justify-content: space-between; }
+    .bodyIndex header .logo {
+      display: flex;
+      justify-content: space-between; }
+      .bodyIndex header .logo img {
+        margin-top: 3.125rem; }
+    .bodyIndex header h1 {
+      text-align: center;
+      color: white;
+      font-family: 'Julius Sans One', sans-serif;
+      padding: 1.875rem;
+      display: inline; }
+  .bodyIndex main {
+    background-color: black; }
+    .bodyIndex main .Banner {
+      width: 100%;
+      height: 780PX;
+      background-image: url("https://images.unsplash.com/photo-1526573461737-b504d8040d92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 60%;
+      font-size: .625rem;
+      color: white;
+      text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .bodyIndex main .Banner h1 {
+        font-family: 'Julius Sans One', sans-serif;
+        justify-content: center;
+        margin-left: 40px; }
+    .bodyIndex main .FraseLeo h1 {
+      margin-top: 1.25rem;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .bodyIndex main .FraseLeo .foto-frase {
+      margin-left: 3.125rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .bodyIndex main .FraseLeo .foto-frase h2 {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: .8125rem;
+        width: 25rem;
+        margin-left: 1.25rem; }
+      .bodyIndex main .FraseLeo .foto-frase img {
+        width: 9.375rem;
+        height: 9.375rem; }
+    .bodyIndex main .sectionVestimenta h2 {
+      margin: 2.5rem;
+      font-size: 1.875rem;
+      font-family: 'Roboto',sans-serif;
+      text-align: center;
+      color: white; }
+    .bodyIndex main .sectionVestimenta h3 {
+      color: white;
+      font-family: 'Roboto',sans-serif; }
+    .bodyIndex main .sectionVestimenta img {
+      width: 9.375rem;
+      height: 13.75rem; }
+    .bodyIndex main .sectionVestimenta .Vestimenta {
+      display: flex;
+      flex-direction: row;
+      background-color: rgba(0, 0, 0, 0.589);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+      .bodyIndex main .sectionVestimenta .Vestimenta .tipoVestimenta {
+        border: solid 0.0625rem rgba(0, 0, 0, 0.493);
+        display: flex;
+        flex-direction: column;
+        border-radius: .625rem;
+        overflow: hidden;
+        margin: 1.5625rem 0px; }
+    .bodyIndex main .apoyaSeleccion p {
+      font-family: 'Roboto',sans-serif;
+      width: 100%;
+      height: 21.875rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100%;
+      background-image: url("https://www.ole.com.ar/images/2022/12/18/dYmYg_Tdb_1580x750__1.jpg");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.875rem;
+      color: white;
+      text-shadow: 0.3125rem 0.3125rem 0.3125rem black; }
+  .bodyIndex footer .pieDePagina h2 {
+    font-size: .625rem;
+    margin-left: 20px; }
+  .bodyIndex footer .pieDePagina .ulRedes img {
+    width: .4375rem;
+    height: .4375rem; }
+  /*--------------------------------LOCALIDADES---------------------------------------------*/
+  .bodyLocalidades header {
+    background-image: url("https://images.unsplash.com/photo-1621573094640-0b2391e9acec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    width: 100%;
+    height: 21.875rem;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .bodyLocalidades header h1 {
+      color: white; }
+    .bodyLocalidades header h3 {
+      color: white; }
+    .bodyLocalidades header .Encabezado {
+      width: 100%;
+      height: 31.25rem;
+      display: grid;
+      grid-template-columns: 7.5rem 3.125rem 6.25rem 21.875rem;
+      grid-template-rows: 6.25rem 5.625rem 5rem 5rem;
+      grid-template-areas: "logo . . BdeN" ". . . ." "DE DE DE DE" "NS NS NS .";
+      justify-items: left;
+      justify-content: space-between;
+      column-gap: 0rem; }
+    .bodyLocalidades header .ulNavegador {
+      padding-left: 0px;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      grid-area: BdeN; }
+      .bodyLocalidades header .ulNavegador li {
+        display: inline;
+        font-weight: bold;
+        font-size: 1.875rem; }
+        .bodyLocalidades header .ulNavegador li a {
+          color: white;
+          text-decoration: none;
+          font-size: .5rem; }
+    .bodyLocalidades header .divLogoAdidas {
+      align-items: end;
+      grid-area: logo; }
+      .bodyLocalidades header .divLogoAdidas img {
+        color: white;
+        width: 7.5rem;
+        height: 5rem; }
+    .bodyLocalidades header .DondeEs {
+      align-items: center;
+      padding-left: 6.25rem; }
+      .bodyLocalidades header .DondeEs h1 {
+        font-size: 1.5625rem;
+        font-family: 'Roboto',sans-serif;
+        grid-area: DE;
+        text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+        justify-items: center;
+        align-self: center; }
+    .bodyLocalidades header .NuestrasSu {
+      align-items: end;
+      padding-bottom: .625rem;
+      font-size: .75rem;
+      font-family: 'Roboto',sans-serif;
+      grid-area: NS; }
+  .bodyLocalidades main {
+    background-color: #0f0024; }
+    .bodyLocalidades main .adidasLocalidades {
+      width: 100%;
+      height: 25rem;
+      display: grid;
+      grid-template-columns: 9.375rem 9.375rem 9.375rem 9.375rem;
+      grid-template-rows: 7.5rem 7.5rem 7.5rem;
+      column-gap: 1.25rem;
+      grid-template-areas: "fotouno descuno fotodos descdos" "fototres desctres fotocuatro desccuatro" "fotocinco desccinco fotoseis descseis";
+      justify-content: center; }
+    .bodyLocalidades main div img {
+      width: 9.375rem;
+      height: 65px; }
+    .bodyLocalidades main div p {
+      color: white; }
+    .bodyLocalidades main .FotolocalUno {
+      grid-area: fotouno; }
+    .bodyLocalidades main .DescLocalUno {
+      font-size: .625rem;
+      grid-area: descuno; }
+    .bodyLocalidades main .FotoLocalDos {
+      grid-area: fotodos; }
+    .bodyLocalidades main .DescLocalDos {
+      font-size: .625rem;
+      grid-area: descdos; }
+    .bodyLocalidades main .FotoLocalTres {
+      grid-area: fototres; }
+    .bodyLocalidades main .DescLocalTres {
+      font-size: .625rem;
+      grid-area: desctres; }
+    .bodyLocalidades main .FotoLocalCuatro {
+      grid-area: fotocuatro; }
+    .bodyLocalidades main .DescLocalCuatro {
+      font-size: .625rem;
+      grid-area: desccuatro; }
+    .bodyLocalidades main .FotolocalCinco {
+      grid-area: fotocinco; }
+    .bodyLocalidades main .DescLocalCinco {
+      font-size: .625rem;
+      grid-area: desccinco; }
+    .bodyLocalidades main .FotolocalSeis {
+      grid-area: fotoseis; }
+    .bodyLocalidades main .DescLocalSeis {
+      font-size: .625rem;
+      grid-area: descseis; }
+  .bodyLocalidades footer {
+    background-color: black; }
+    .bodyLocalidades footer .pieDePagina {
+      font-size: .625rem;
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: space-around; }
+      .bodyLocalidades footer .pieDePagina .ulRedes li img {
+        width: .75rem;
+        height: .9375rem; }
+  /*-------------------------------NOSOTROS--------------------------------*/
+  .bodyNosotros header {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between; }
+    .bodyNosotros header .divlogoAdidas {
+      display: flex;
+      justify-content: space-between; }
+      .bodyNosotros header .divlogoAdidas img {
+        margin-top: 3.125rem;
+        width: 7.5rem;
+        height: 5.625rem; }
+    .bodyNosotros header .ulNavegador {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      padding-top: 1.875rem;
+      padding-left: 50px; }
+      .bodyNosotros header .ulNavegador li {
+        display: inline;
+        font-weight: bold;
+        font-size: 10px; }
+        .bodyNosotros header .ulNavegador li a {
+          color: white;
+          text-decoration: none;
+          font-size: 9px; }
+    .bodyNosotros header h1 {
+      text-align: center;
+      color: white;
+      font-family: 'Julius Sans One', sans-serif;
+      padding: 1.875rem;
+      display: inline; }
+  .bodyNosotros main {
+    padding-top: 2.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; }
+    .bodyNosotros main .nosotrosMain {
+      width: 100%;
+      height: 34.375rem;
+      display: grid;
+      grid-template-columns: 9.375rem 9.375rem 9.375rem;
+      grid-template-rows: 13.75rem 13.75rem 13.75rem;
+      column-gap: 1.25rem;
+      grid-template-areas: "ha ha lv" "ha ha la" "tn tn ftn";
+      justify-content: center; }
+    .bodyNosotros main .historiaAdidas {
+      grid-area: ha; }
+      .bodyNosotros main .historiaAdidas p {
+        color: white; }
+      .bodyNosotros main .historiaAdidas h1 {
+        color: white; }
+      .bodyNosotros main .historiaAdidas h1 {
+        color: white; }
+      .bodyNosotros main .historiaAdidas h3 {
+        color: white; }
+      .bodyNosotros main .historiaAdidas img {
+        width: 12.5rem;
+        height: 9.375rem; }
+    .bodyNosotros main .logoViejo {
+      grid-area: lv; }
+      .bodyNosotros main .logoViejo h3 {
+        color: white; }
+    .bodyNosotros main .logoActual {
+      grid-area: la; }
+      .bodyNosotros main .logoActual h3 {
+        color: white; }
+    .bodyNosotros main .TrabajaConNosotros {
+      grid-area: tn; }
+      .bodyNosotros main .TrabajaConNosotros h1 {
+        color: white; }
+      .bodyNosotros main .TrabajaConNosotros p {
+        color: white; }
+    .bodyNosotros main .FotoTrabajaNosotros {
+      grid-area: ftn; }
+      .bodyNosotros main .FotoTrabajaNosotros img {
+        width: 12.5rem;
+        height: 9.375rem; }
+    .bodyNosotros main .pieDePagina div {
+      background-color: black; }
+    .bodyNosotros main .ulRedes li {
+      list-style: none; }
+    .bodyNosotros main .historiaAdidas h1 {
+      font-size: 2.5rem; }
+    .bodyNosotros main .historiaAdidas p {
+      font-size: .9375rem; }
+    .bodyNosotros main .logoViejo img {
+      width: 12.5rem;
+      height: 6.25rem; }
+    .bodyNosotros main .logoViejo h3 {
+      padding-left: 3.125rem; }
+    .bodyNosotros main .logoActual img {
+      width: 12.5rem;
+      height: 6.25rem; }
+    .bodyNosotros main .logoActual h3 {
+      padding-left: 3.125rem; }
+    .bodyNosotros main .TrabajaConNosotros h1 {
+      font-size: 1.875rem;
+      padding-bottom: .3125rem; }
+    .bodyNosotros main .TrabajaConNosotros p {
+      font-size: 1.125rem; }
+  .bodyNosotros footer {
+    background-color: black; }
+    .bodyNosotros footer .pieDePagina {
+      padding-top: 1.875rem;
+      font-size: .625rem;
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: space-around; }
+      .bodyNosotros footer .pieDePagina .ulRedes li img {
+        width: .75rem;
+        height: .9375rem; } }
+
+@media (max-width: 425px) {
+  .sectionVestimentaRopa {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    justify-content: space-between;
+    align-items: center; }
+    .sectionVestimentaRopa img {
+      width: 3.625rem;
+      height: 6.25rem; }
+    .sectionVestimentaRopa h3 {
+      color: white;
+      font-size: .375rem; }
+  .CamisetasDeportivas img {
+    width: 18.75rem;
+    height: 9.375rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40px; }
+  .CamisetasDeportivas h3 {
+    margin-left: 40px;
+    color: white;
+    font-size: 9px;
+    font-family: 'Roboto',sans-serif; }
+  .pieDePagina h2 {
+    font-size: 6px;
+    margin-left: 35px; }
+  .pieDePagina ul {
+    font-size: 7px;
+    margin: 0; }
+  .ulRedes img {
+    width: .625rem;
+    height: .625rem; }
+  footer {
+    width: 26.5625rem; }
+  .bodyRopaSeleccion header {
+    width: 100%;
+    height: 100px;
+    background-image: url(../assets/img//festejoarg.png);
+    background-repeat: no-repeat;
+    background-size: coer;
+    background-position: 90%; }
+  .sectionVestimentaSeleccion {
+    display: flex;
+    justify-content: space-between; }
+    .sectionVestimentaSeleccion img {
+      width: 3.75rem;
+      height: 5.625rem; }
+    .sectionVestimentaSeleccion h3 {
+      color: white;
+      font-family: 'Roboto',sans-serif;
+      font-size: 7px; }
+  /*---------------------ROPA----------------------*/
+  .bodyRopa header {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between; }
+    .bodyRopa header div img {
+      width: 3.75rem;
+      height: 2.5rem; }
+    .bodyRopa header h1 {
+      font-size: .4375rem;
+      text-align: start;
+      color: white;
+      font-family: 'Julius Sans One', sans-serif;
+      display: inline; }
+    .bodyRopa header .ulNavegador ul li a {
+      font-size: .3125rem; }
+  .bodyRopa main .sectionVestimentaRopa {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    justify-content: space-between;
+    align-items: center; }
+    .bodyRopa main .sectionVestimentaRopa div {
+      height: 130px; }
+      .bodyRopa main .sectionVestimentaRopa div img {
+        width: 3.625rem;
+        height: 6.25rem; }
+      .bodyRopa main .sectionVestimentaRopa div h3 {
+        color: white;
+        font-size: .375rem; }
+  .bodyRopa main .CamisetasDeportivas img {
+    width: 18.75rem;
+    height: 9.375rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40px; }
+  .bodyRopa main .CamisetasDeportivas h3 {
+    margin-left: 0px;
+    color: white;
+    font-size: 9px;
+    font-family: 'Roboto',sans-serif; }
+  .bodyRopa footer .pieDePagina {
+    list-style: none;
+    padding-bottom: 3.125rem; }
+    .bodyRopa footer .pieDePagina h2 {
+      font-size: .3125rem;
+      padding-right: 10px; }
+    .bodyRopa footer .pieDePagina ul {
+      font-size: 5px;
+      margin: 0; }
+    .bodyRopa footer .pieDePagina div .ulRedes li img {
+      width: .625rem;
+      height: .625rem; }
+  /*---------------------INDEX----------------------*/
+  .bodyIndex header {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between; }
+    .bodyIndex header div img {
+      width: 3.75rem;
+      height: 2.5rem; }
+    .bodyIndex header h1 {
+      text-align: start;
+      color: white;
+      font-family: 'Julius Sans One', sans-serif;
+      display: inline; }
+    .bodyIndex header nav .ulNavegador {
+      padding-top: 0rem;
+      margin-bottom: 6.25rem;
+      padding-left: 0rem; }
+      .bodyIndex header nav .ulNavegador li a {
+        font-size: .4375rem; }
+  .bodyIndex main {
+    background-color: black; }
+    .bodyIndex main .Banner {
+      width: 100%;
+      height: 25rem;
+      background-image: url("https://images.unsplash.com/photo-1526573461737-b504d8040d92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 80%;
+      font-size: .5625rem;
+      color: white;
+      text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .bodyIndex main .Banner h1 {
+        font-family: 'Julius Sans One', sans-serif; }
+    .bodyIndex main .FraseLeo h1 {
+      margin-top: 1.25rem;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .bodyIndex main .FraseLeo .foto-frase {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .bodyIndex main .FraseLeo .foto-frase h2 {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: .625rem;
+        width: 25rem;
+        margin-right: 1.25rem; }
+      .bodyIndex main .FraseLeo .foto-frase img {
+        width: 6.25rem;
+        height: 6.25rem; }
+    .bodyIndex main .sectionVestimenta h2 {
+      margin: 2.5rem;
+      font-size: 1.875rem;
+      font-family: 'Roboto',sans-serif;
+      text-align: center;
+      color: white; }
+    .bodyIndex main .sectionVestimenta h3 {
+      color: white;
+      font-family: 'Roboto',sans-serif;
+      font-size: 1.25rem; }
+    .bodyIndex main .sectionVestimenta img {
+      width: 5rem;
+      height: 7.5rem; }
+    .bodyIndex main .sectionVestimenta .Vestimenta {
+      display: flex;
+      flex-direction: row;
+      background-color: rgba(0, 0, 0, 0.589);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+      .bodyIndex main .sectionVestimenta .Vestimenta .tipoVestimenta {
+        border: solid 0.0625rem rgba(0, 0, 0, 0.493);
+        display: flex;
+        flex-direction: column;
+        border-radius: .625rem;
+        overflow: hidden;
+        margin: 1.5625rem 0px; }
+    .bodyIndex main .apoyaSeleccion p {
+      font-family: 'Roboto',sans-serif;
+      width: 100%;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100%;
+      background-image: url("https://www.ole.com.ar/images/2022/12/18/dYmYg_Tdb_1580x750__1.jpg");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: .9375rem;
+      color: white;
+      text-shadow: 0.3125rem 0.3125rem 0.3125rem black; }
+  .bodyIndex footer {
+    background-color: black; }
+    .bodyIndex footer .pieDePagina {
+      color: white;
+      display: flex;
+      justify-content: space-around; }
+      .bodyIndex footer .pieDePagina .ulRedes img {
+        width: .4375rem;
+        height: 7px; }
+  /*---------------------SELECCION----------------------*/
+  .bodyRopaSeleccion .header-ropaseleccion {
+    width: 100%;
+    height: 100px;
+    background-image: url(../assets/img//festejoarg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90%;
+    display: flex;
+    justify-content: space-between; }
+    .bodyRopaSeleccion .header-ropaseleccion .divLogoAdidas img {
+      width: 3.75rem;
+      height: 2.5rem; }
+    .bodyRopaSeleccion .header-ropaseleccion h1 {
+      font-size: .4375rem;
+      text-align: start;
+      color: black;
+      font-family: 'Julius Sans One', sans-serif;
+      display: inline; }
+    .bodyRopaSeleccion .header-ropaseleccion .ulNavegador ul li a {
+      font-size: .3125rem; }
+  .bodyRopaSeleccion .sectionVestimentaSeleccion {
+    display: flex;
+    justify-content: space-between; }
+    .bodyRopaSeleccion .sectionVestimentaSeleccion img {
+      width: 3.75rem;
+      height: 5.625rem; }
+    .bodyRopaSeleccion .sectionVestimentaSeleccion h3 {
+      color: white;
+      font-family: 'Roboto',sans-serif;
+      font-size: 7px; }
+  .bodyRopaSeleccion footer {
+    padding-top: .625rem;
+    background-color: black; }
+    .bodyRopaSeleccion footer .pieDePagina {
+      color: white;
+      display: flex;
+      justify-content: space-around; }
+      .bodyRopaSeleccion footer .pieDePagina div h2 {
+        font-size: .4375rem; }
+      .bodyRopaSeleccion footer .pieDePagina .ulRedes img {
+        width: .4375rem;
+        height: 7px; }
+  /*--------------------------------LOCALIDADES---------------------------------------------*/
+  .bodyLocalidades header {
+    background-image: url("https://images.unsplash.com/photo-1621573094640-0b2391e9acec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .bodyLocalidades header h1 {
+      color: white; }
+    .bodyLocalidades header h3 {
+      color: white; }
+    .bodyLocalidades header .Encabezado {
+      width: 100%;
+      height: 12.5rem;
+      display: grid;
+      grid-template-columns: 5rem 8.75rem  12.5rem  8.75rem;
+      grid-template-rows: 50px 3.125rem 50px 50px;
+      grid-template-areas: "logo BdeN BdeN BdeN" ". . . ." ". DE DE ." "NS NS NS .";
+      justify-items: left;
+      justify-content: space-between;
+      column-gap: 0rem; }
+    .bodyLocalidades header .ulNavegador {
+      padding-left: 0px;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      grid-area: BdeN; }
+      .bodyLocalidades header .ulNavegador li {
+        display: inline;
+        font-weight: bold;
+        font-size: 1.875rem; }
+        .bodyLocalidades header .ulNavegador li a {
+          color: white;
+          text-decoration: none;
+          font-size: .5rem; }
+    .bodyLocalidades header .divLogoAdidas {
+      padding-top: 1.25rem;
+      align-items: end;
+      grid-area: logo; }
+      .bodyLocalidades header .divLogoAdidas img {
+        color: white;
+        width: 60px;
+        height: 40px; }
+    .bodyLocalidades header .DondeEs {
+      align-items: center;
+      padding-left: 0rem;
+      margin-left: 0rem;
+      grid-area: DE; }
+      .bodyLocalidades header .DondeEs h1 {
+        padding-right: 6.25rem;
+        font-size: .625rem;
+        font-family: 'Roboto',sans-serif;
+        text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397); }
+    .bodyLocalidades header .NuestrasSu {
+      align-items: end;
+      padding-top: 60px;
+      font-size: .375rem;
+      font-family: 'Roboto',sans-serif;
+      grid-area: NS; }
+  .bodyLocalidades main {
+    height: 13.75rem;
+    background-color: #0f0024; }
+    .bodyLocalidades main .adidasLocalidades {
+      width: 100%;
+      height: 9.375rem;
+      display: grid;
+      grid-template-columns: 5rem 3.125rem 5rem 3.125rem;
+      grid-template-rows: 3.125rem 3.125rem 3.125rem;
+      column-gap: 1.25rem;
+      grid-template-areas: "fotouno descuno fotodos descdos" "fototres desctres fotocuatro desccuatro" "fotocinco desccinco fotoseis descseis";
+      justify-content: center; }
+    .bodyLocalidades main div img {
+      width: 5rem;
+      height: 2.5rem; }
+    .bodyLocalidades main div p {
+      color: white; }
+    .bodyLocalidades main .FotolocalUno {
+      height: 2.5rem;
+      grid-area: fotouno; }
+    .bodyLocalidades main .DescLocalUno {
+      height: 2.5rem;
+      font-size: .1875rem;
+      grid-area: descuno; }
+    .bodyLocalidades main .FotoLocalDos {
+      height: 2.5rem;
+      grid-area: fotodos; }
+    .bodyLocalidades main .DescLocalDos {
+      height: 2.5rem;
+      font-size: .1875rem;
+      grid-area: descdos; }
+    .bodyLocalidades main .FotoLocalTres {
+      height: 2.5rem;
+      grid-area: fototres; }
+    .bodyLocalidades main .DescLocalTres {
+      height: 2.5rem;
+      font-size: .1875rem;
+      grid-area: desctres; }
+    .bodyLocalidades main .FotoLocalCuatro {
+      height: 2.5rem;
+      grid-area: fotocuatro; }
+    .bodyLocalidades main .DescLocalCuatro {
+      height: 2.5rem;
+      font-size: .1875rem;
+      grid-area: desccuatro; }
+    .bodyLocalidades main .FotolocalCinco {
+      height: 2.5rem;
+      grid-area: fotocinco; }
+    .bodyLocalidades main .DescLocalCinco {
+      height: 2.5rem;
+      font-size: .1875rem;
+      grid-area: desccinco; }
+    .bodyLocalidades main .FotolocalSeis {
+      height: 2.5rem;
+      grid-area: fotoseis; }
+    .bodyLocalidades main .DescLocalSeis {
+      height: 2.5rem;
+      font-size: .1875rem;
+      grid-area: descseis; }
+  /*-------------------------------NOSOTROS--------------------------------*/
+  .bodyNosotros header {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 9.375rem;
+    display: flex;
+    justify-content: space-between; }
+    .bodyNosotros header .divLogoAdidas img {
+      width: 3.75rem;
+      height: 2.5rem; }
+    .bodyNosotros header h1 {
+      font-size: .4375rem;
+      text-align: start;
+      color: white;
+      font-family: 'Julius Sans One', sans-serif;
+      display: inline; }
+    .bodyNosotros header .ulNavegador ul li a {
+      font-size: .3125rem; }
+  .bodyNosotros main {
+    height: 25rem;
+    padding-top: 2.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; }
+    .bodyNosotros main .nosotrosMain {
+      width: 100%;
+      height: 18.75rem;
+      display: grid;
+      grid-template-columns: 6.25rem 6.25rem 6.25rem;
+      grid-template-rows: 8.75rem 80px 8.75rem;
+      column-gap: 1.25rem;
+      grid-template-areas: "ha ha lv" "ha ha la" "tn tn ftn";
+      justify-content: center; }
+    .bodyNosotros main .historiaAdidas {
+      grid-area: ha; }
+      .bodyNosotros main .historiaAdidas p {
+        color: white; }
+      .bodyNosotros main .historiaAdidas h1 {
+        color: white; }
+      .bodyNosotros main .historiaAdidas h1 {
+        color: white; }
+      .bodyNosotros main .historiaAdidas h3 {
+        color: white; }
+      .bodyNosotros main .historiaAdidas img {
+        width: 12.5rem;
+        height: 9.375rem; }
+    .bodyNosotros main .logoViejo {
+      grid-area: lv; }
+      .bodyNosotros main .logoViejo h3 {
+        color: white; }
+    .bodyNosotros main .logoActual {
+      grid-area: la; }
+      .bodyNosotros main .logoActual h3 {
+        color: white; }
+    .bodyNosotros main .TrabajaConNosotros {
+      grid-area: tn; }
+      .bodyNosotros main .TrabajaConNosotros h1 {
+        color: white; }
+      .bodyNosotros main .TrabajaConNosotros p {
+        color: white; }
+    .bodyNosotros main .FotoTrabaNosotros {
+      grid-area: ftn; }
+      .bodyNosotros main .FotoTrabaNosotros img {
+        width: 90px;
+        height: 3.75rem; }
+    .bodyNosotros main .pieDePagina div {
+      background-color: black; }
+    .bodyNosotros main .ulRedes li {
+      list-style: none; }
+    .bodyNosotros main .historiaAdidas h1 {
+      font-size: .625rem; }
+    .bodyNosotros main .historiaAdidas p {
+      font-size: .625rem; }
+    .bodyNosotros main .logoViejo img {
+      width: 6.25rem;
+      height: 3.125rem; }
+    .bodyNosotros main .logoViejo h3 {
+      font-size: .625rem;
+      padding-left: 1.25rem; }
+    .bodyNosotros main .logoActual img {
+      width: 6.25rem;
+      height: 3.125rem; }
+    .bodyNosotros main .logoActual h3 {
+      font-size: .625rem;
+      padding-left: 1.25rem; }
+    .bodyNosotros main .TrabajaConNosotros h1 {
+      font-size: .625rem;
+      padding-bottom: .3125rem; }
+    .bodyNosotros main .TrabajaConNosotros p {
+      font-size: .625rem; }
+  .bodyNosotros footer {
+    background-color: black; }
+    .bodyNosotros footer .pieDePagina {
+      padding-top: 1.875rem;
+      font-size: .625rem;
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: space-around; }
+      .bodyNosotros footer .pieDePagina .ulRedes li img {
+        width: .75rem;
+        height: .9375rem; } }

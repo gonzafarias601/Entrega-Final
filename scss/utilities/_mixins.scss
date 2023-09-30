@@ -1,0 +1,6 @@
+@mixin header($width,$height,$repeat,$cover){
+    width: $width;
+    height: $height;
+    background-repeat: $repeat;
+    background-size: $cover;
+}
